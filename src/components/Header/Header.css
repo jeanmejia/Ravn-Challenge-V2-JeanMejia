@@ -1,0 +1,14 @@
+.Ravn-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 59px;
+    background-color: #121212;
+    color: #F2F2F2;
+    padding-left: 33px;
+    text-align: left;
+
+    
+    
+}
