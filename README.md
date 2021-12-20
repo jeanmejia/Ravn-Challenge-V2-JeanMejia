@@ -29,19 +29,19 @@ The challenge consist in a web app that allows you to browse the Star Wars Graph
 
 A loading indicator is shown when People data is being fetched. Once the data is fetched, the indicator fades.
 
-![Loading](src\assets\Loading.gif)
+![Loading](https://github.com/jeanmejia/Ravn-Challenge-V2-JeanMejia/blob/main/src/assets/Loading.gif?raw=true)
 
 
 ### `AllPeople() Data`
 
 AllPeople() retrieves all character data from the API
 
-![AllPeople](src\assets\AllPeople.gif)
+![AllPeople](https://github.com/jeanmejia/Ravn-Challenge-V2-JeanMejia/blob/main/src/assets/AllPeople.gif?raw=true)
 
 ### `Character Information`
 
 Character info is shown next to the list, vehicle data is also shown if the character uses at least a vehicle.
-![Information](src\assets\Info.gif)
+![Information](https://github.com/jeanmejia/Ravn-Challenge-V2-JeanMejia/blob/main/src/assets/Info.gif?raw=true)
 
 ## Technologies Used
 
