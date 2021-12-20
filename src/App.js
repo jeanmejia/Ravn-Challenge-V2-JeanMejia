@@ -13,6 +13,9 @@ function App() {
         <React.StrictMode>
           <Header/>
           <SideList/>
+          <Routes>
+            <Route path="/info/:ID" element={<Content/>}/>
+          </Routes>
         </React.StrictMode>
       </BrowserRouter>
     </div>
