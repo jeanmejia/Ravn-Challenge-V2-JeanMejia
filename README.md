@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Ravn Challange
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Setup/Running
 
-In the project directory, you can run:
+Setup with Create React App
 
-### `npm start`
+```npx create-react-app my-app
+npx create-react-app my-app
+cd my-app
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
 
-### `npm test`
+Code Challenge by Ravn.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The goal of this challenge is to demonstrate your ability to write clean software, communicate clearly, and
+follow the instructions.
 
-### `npm run build`
+The challenge consist in a web app that allows you to browse the Star Wars GraphQL Api. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Working App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Loading indicator`
 
-### `npm run eject`
+A loading indicator is shown when People data is being fetched. Once the data is fetched, the indicator fades.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Loading](src\assets\Loading.gif)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `AllPeople() Data`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+AllPeople() retrieves all character data from the API
 
-## Learn More
+![AllPeople](src\assets\AllPeople.gif)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `Character Information`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Character info is shown next to the list, vehicle data is also shown if the character uses at least a vehicle.
+![Information](src\assets\Info.gif)
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Several libraries were used to ease development of this challenge.
 
-### Analyzing the Bundle Size
+### React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Most used JS library for building user interfaces.
 
-### Making a Progressive Web App
+It is declarative making code more predictable and easier to debug. Component-Based, each component manages its own state, logic is also written in JS making pass data easier.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### react-router-dom
 
-### Advanced Configuration
+React Router is a fully-featured client and server-side routing library for React, a JavaScript library for building user interfaces. React Router runs anywhere React runs; on the web, on the server with node.js, and on React Native.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### MUI
 
-### Deployment
+MUI provides customizable, robust and an accessible library of basic and advanced components, making React apps easier to design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I used this library to implement icons in the app.
 
-### `npm run build` fails to minify
+### GraphQL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A query language for APIS, gives clients the power to ask for what they need, making app development easier.
+
+You can send a GraphQL query with exactly what you need, it will always return predictable results, it is fast and stable because it controls the data that apps get, not the server.
